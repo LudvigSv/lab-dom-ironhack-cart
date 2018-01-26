@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <script type="text/javascript" src="./js/index.js"></script>
-  <title>Ironhack cart</title>
-</head>
-<body>
-</body>
+   <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+     <link rel="stylesheet" href="./css/style.css">
+     <script type="text/javascript" src="./js/index.js"></script>
+     <title>Ironhack cart</title>
+ </head>
+ <body>
+   <h1>Ironhhack Merchandising Shop</h1>
+   <div class="product-line">
+     <div class= "container Item">
+       <span >Ironbubble Head</span>
+     </div>
+     <div class= "container price">
+       <span>$25.00</span>
+     </div>
+     <div class= "container productQuantity">
+         <label class="input quantity" for="quantity">QTY</label>
+         <input name="quantity" type="text">
+     </div>
+     <div class= "container SubTotal">
+       <span> 0.00 </span>
+     </div>
+     <div class= "container">
+         <button class="btn-delete btn">Delete</button>
+     </div>
+   </div>
+   <div clear></div>
+
+  <!-- second product line starts here -->
+
+  <div class="product-line">
+     <div class= "container">
+       <span >Ironbubble Head</span>
+     </div>
+     <div class= "container">
+       <span>$25.00</span>
+     </div>
+     <div class= "container">
+         <label class="input quantity" for="quantity">QTY</label>
+         <input class="quantityInputs" name="quantity" type="text">
+     </div>
+     <div class= "container">
+       <span>TotalPriceFunction</span>
+     </div>
+     <div class= "container">
+         <button class="btn-delete btn">Delete</button>
+     </div>
+   </div>
+   <div clear></div>
+   <!-- end of second product line -->
+   <div>
+     <button class="btn-success btn calc-prices-button"> Calculate Prices </button>
+   </div>
+ </body>
 </html>
